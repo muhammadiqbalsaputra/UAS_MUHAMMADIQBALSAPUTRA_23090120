@@ -12,7 +12,7 @@ class Buah:
         return self.__Rasa
     
     def information(self):
-        return f'Buah: {self.set_nama()} \nWarna: {self.set_warna()} \nRasa: {self.__Rasa()}'
+        return f'Buah: {self.set_nama()} \nWarna: {self.set_warna()} \nRasa: {self.set_rasa()}'
 
 class Mangga:
     def __init__(self,Vitamin):
